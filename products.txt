@@ -1,0 +1,35 @@
+productName: martisor
+productPrice: 10
+productCompany: borsec
+productBarcode: 123
+productStock: 10
+productPromotion: 30
+
+productName: mona
+productPrice: 5
+productCompany: mona SRL
+productBarcode: 1234
+productStock: 10
+productPromotion: 30
+
+productName: doritos
+productPrice: 20
+productCompany: doritos SA
+productBarcode: 12345
+productStock: 10
+productPromotion: 30
+
+productName: Moet
+productPrice: 1000
+productCompany: Moet de bufet
+productBarcode: 123456
+productStock: 10
+productPromotion: 0
+
+productName: Palmier
+productPrice: 400
+productCompany: Palmieri_De_la_fermieri
+productBarcode: 1234567
+productStock: 10
+productPromotion: 0
+

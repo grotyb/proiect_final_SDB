@@ -1,0 +1,16 @@
+userID: gigi
+userPass: admin
+userType: admin
+
+userID: pokj
+userPass: user
+userType: user
+
+userID: pokj
+userPass: user
+userType: user
+
+userID: de
+userPass: as
+userType: user
+
