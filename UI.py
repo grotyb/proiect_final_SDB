@@ -103,26 +103,35 @@ class UI:
                 if update_key == 1:
                     print("please enter the new name of the product")
                     new_value = input()
+                    self.__service.update_product(barcode_to_update, update_key, new_value)
                 elif update_key == 2:
                     print("Please enter the new price of the product")
                     try:
                         new_value = int(input())
                     except:
                         print("Please enter a valid price")
+                        new_value = None
+                    if new_value != None:
+                        self.__service.update_product(barcode_to_update, update_key, new_value)
                 elif update_key == 3:
                     print("Please enter the new name of the company")
                     new_value = input()
+                    self.__service.update_product(barcode_to_update, update_key, new_value)
                 elif update_key == 4:
                     print("Please add the value of the promotion as a number from 1 to 100: ")
                     new_value = input()
                     if not self.__service.validate_promotion(new_value):
                         self.display_menu_admin()
+                    self.__service.update_product(barcode_to_update, update_key, new_value)
                 elif update_key == 5:
+                    print("Please enter the new stock number")
                     try:
                         new_value = int(input())
                     except:
+                        new_value = None
                         print("Please enter a valid stock number")
-                self.__service.update_product(barcode_to_update, update_key, new_value)
+                    if new_value != None:
+                        self.__service.update_product(barcode_to_update, update_key, new_value)
 
         if key == 4:
             self.__service.display_all_elements()
@@ -190,7 +199,6 @@ class UI:
                 print("please enter a valid quantity")
                 self.display_user_menu()
             if quantity != None:
-                print("here")
                 self.__service.user_buy(barcode, quantity)
         if key == 2:
             self.__service.display_all_elements()

@@ -3,40 +3,33 @@ productPrice: 10
 productCompany: borsec
 productBarcode: 123
 productStock: 7
-productPromotion: 30
+productPromotion: 20
 
 productName: mona
 productPrice: 5
 productCompany: mona SRL
 productBarcode: 1234
 productStock: 10
-productPromotion: 30
+productPromotion: 20
 
 productName: doritos
 productPrice: 20
 productCompany: doritos SA
 productBarcode: 12345
 productStock: 10
-productPromotion: 30
+productPromotion: 24
 
 productName: Moet
 productPrice: 1000
-productCompany: Moet de bufet
+productCompany: Moet de buget
 productBarcode: 123456
 productStock: 10
 productPromotion: 0
 
-productName: Palmier
-productPrice: 400
-productCompany: Palmieri_De_la_fermieri
+productName: PaLmIeR
+productPrice: 450
+productCompany: palmier_de_la_fermier
 productBarcode: 1234567
-productStock: 10
-productPromotion: 0
-
-productName: avion
-productPrice: 123
-productCompany: avioane
-productBarcode: 159
-productStock: 2
-productPromotion: 0
+productStock: 90
+productPromotion: 40
 

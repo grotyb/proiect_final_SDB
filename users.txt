@@ -1,16 +1,16 @@
+userID: user1
+userPass: user1
+userType: user
+
 userID: gigi
 userPass: pokj
 userType: admin
 
-userID: admin
-userPass: user
+userID: user2
+userPass: user2
 userType: user
 
-userID: admin
-userPass: user
-userType: user
-
-userID: andi
-userPass: gh
-userType: user
+userID: admin2
+userPass: adminadmin
+userType: admin
 
