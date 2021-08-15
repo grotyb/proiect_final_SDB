@@ -115,6 +115,7 @@ class service:
             print("Please enter lower amount, {0} {1} is available".format(self.__product_list[self.find_product_index_by_barcode(barcode)].get_stock(), self.__product_list[self.find_product_index_by_barcode(barcode)].get_name()))
         else:
             self.__product_list[self.find_product_index_by_barcode(barcode)].set_stock(int(self.__product_list[self.find_product_index_by_barcode(barcode)].get_stock()) - quantity)
+            self.rewrite_list()
 
     def display_elements_under_set_price(self, max_price):
         for product in self.__product_list:

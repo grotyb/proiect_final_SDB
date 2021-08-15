@@ -2,7 +2,7 @@ productName: martisor
 productPrice: 10
 productCompany: borsec
 productBarcode: 123
-productStock: 10
+productStock: 7
 productPromotion: 30
 
 productName: mona
@@ -31,5 +31,12 @@ productPrice: 400
 productCompany: Palmieri_De_la_fermieri
 productBarcode: 1234567
 productStock: 10
+productPromotion: 0
+
+productName: avion
+productPrice: 123
+productCompany: avioane
+productBarcode: 159
+productStock: 2
 productPromotion: 0
 

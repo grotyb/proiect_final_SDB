@@ -186,8 +186,12 @@ class UI:
             try:
                 quantity = int(input())
             except:
+                quantity = None
                 print("please enter a valid quantity")
-            self.__service.user_buy(barcode, quantity)
+                self.display_user_menu()
+            if quantity != None:
+                print("here")
+                self.__service.user_buy(barcode, quantity)
         if key == 2:
             self.__service.display_all_elements()
         if key == 3:
